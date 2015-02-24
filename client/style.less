@@ -1,1 +1,53 @@
-.table border="3" bordercolor="red" align="center"
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 18px Verdana;
+	color: #FFF;
+  background: #CCC;
+}
+#picbox {
+	margin: 0px auto;
+	width: 1900px;
+}
+#boxcard {
+	z-index: 1;
+	margin: 10px 0 0;
+}
+#boxcard div{
+	float: left;
+	width: 400px;
+	height: 400px;
+	margin: 15px;
+	padding: 15px;
+	border: 4px solid white;
+	cursor: pointer;
+	border-radius: 220px;
+	box-shadow: 0 1px 5px rgba(0,0,0,.5);
+  background: #B1B1B1;
+	z-index: 2;
+}
+#boxcard div img {
+	display: none;
+	border-radius: 300px;
+	z-index: 3;
+  width: 400px;
+  height: 400px;
+}
+#boxbuttons {
+	text-align: center;
+	margin: 20px;
+	display: block;
+}
+#boxbuttons .button {
+	text-transform: uppercase;
+	background: grey;
+	padding: 25px 100px;
+	margin: 15px;
+	border-radius: 1110px;
+	cursor: pointer;
+}
+#boxbuttons .button:hover {
+	background: #999;
+}

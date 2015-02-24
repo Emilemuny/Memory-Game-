@@ -1,17 +1,17 @@
 {
-  "name": "prototype",
-  "description": "Prototype Application",
-  "homepage": "https://github.com/coding-house-jan2015/prototype",
+  "name": "Memory-Game",
+  "description": "Memory-Game Application",
+  "homepage": "https://github.com/emilemuny/Memory-Game",
   "keywords": [
     "gulp",
     "jshint",
     "jscs",
     "server"
   ],
-  "author": "Chyld Medford <chyld.medford@gmail.com>",
+  "author": "Emile Munyangabe <emilemuny007@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/coding-house-jan2015/prototype.git"
+    "url": "git://github.com/emilemuny/Memory-Game.git"
   },
   "version": "1.0.0",
   "scripts": {

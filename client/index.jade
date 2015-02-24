@@ -3,53 +3,17 @@ html(lang='en')
   head
     meta(charset='utf-8')
     title Prototype
-    link(rel='stylesheet', href='style.css')
+    link(rel='stylesheet', href='/style.css')
+    script(src='main.js')
   body
-    center
-      h1 Memory game
-   
-
-    table border="3" bordercolor="red" align="center"
-      tr
-        td image1
-        td image2
-        td image3
-                   
-       
-      tr
-        td image4
-        td image5
-        td image6
-       
-      tr
-        td image7
-        td image8
-        td image9
-       
-      tr
-        td image10
-        td image11
-        td image11
-       
-      tr
-        td image12
-        td image13
-        td image14
-       
-      tr
-        td image15
-        td image16
-        td image17
-       
-      tr
-        td image18
-        td image19
-        td image20
-       
-   
-  
-
- 
-      
-    script(src='vendorjquerydistjquery.js')
+    #picbox
+      span#boxbuttons
+        span.button
+          span#counter 0
+          |         Clicks
+        span.button
+          a(onclick='ResetGame();') Reset
+      #boxcard
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js', type='text/javascript')
+    script(src='vendor/jquery/dist/jquery.js', type='text/javascript')
     script(src='main.js')
